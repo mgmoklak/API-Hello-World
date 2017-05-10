@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingAPI", "MessagingAPI\MessagingAPI.csproj", "{DFB047E3-B6EA-4B15-BCA5-55C06670ACF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingAPI.Tests", "MessagingAPI.Tests\MessagingAPI.Tests.csproj", "{832904E6-DF9F-4565-8B01-C01D01276310}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{79A7D11A-02FC-4A6F-93E0-93FA631ED8BE}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{4C3D5147-BA55-4CD7-BCDC-4E09EBCF0D48}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\MessagingAPI-WAWS-dev.json = PublishScripts\Configurations\MessagingAPI-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{174415BD-C2C7-4285-ADDA-B38BA7A13990}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleWriter", "ConsoleWriter\ConsoleWriter.csproj", "{AD6FDC7F-4CBC-4053-A2E9-0A7E51A4E639}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFB047E3-B6EA-4B15-BCA5-55C06670ACF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB047E3-B6EA-4B15-BCA5-55C06670ACF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB047E3-B6EA-4B15-BCA5-55C06670ACF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB047E3-B6EA-4B15-BCA5-55C06670ACF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832904E6-DF9F-4565-8B01-C01D01276310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832904E6-DF9F-4565-8B01-C01D01276310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832904E6-DF9F-4565-8B01-C01D01276310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832904E6-DF9F-4565-8B01-C01D01276310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD6FDC7F-4CBC-4053-A2E9-0A7E51A4E639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD6FDC7F-4CBC-4053-A2E9-0A7E51A4E639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD6FDC7F-4CBC-4053-A2E9-0A7E51A4E639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD6FDC7F-4CBC-4053-A2E9-0A7E51A4E639}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C3D5147-BA55-4CD7-BCDC-4E09EBCF0D48} = {79A7D11A-02FC-4A6F-93E0-93FA631ED8BE}
+	EndGlobalSection
+EndGlobal
